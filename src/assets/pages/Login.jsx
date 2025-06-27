@@ -9,7 +9,7 @@ const Login = () => {
 
             {/* Logo centrado y responsive */}
             <img
-                className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-36 lg:h-36 object-contain my-3 rounded-full"
+                className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-30 lg:h-30  object-contain my-3 rounded-full"
                 src={logo}
                 alt="logo"
             />

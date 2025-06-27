@@ -1,4 +1,5 @@
-import Login from "./assets/pages/Login";
+
+import Register from "./assets/pages/Register";
 
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
 
   return (
     <>
-      <Login />
+      <Register />
     </>
   )
 }
