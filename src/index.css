@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer base {
+    :root {
+        --createdDarkBlue: #0876CC;
+        --createdBlue: #16B4F2;
+        --createdOtherBlue: #0B7ABF;
+    }
+}
+
+html,
+body,
+#root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
