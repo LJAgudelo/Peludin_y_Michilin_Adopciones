@@ -10,7 +10,7 @@ const Register = () => {
             <div className="flex items-center   bg-gray-100" >
                 <img
                     src={lengua}
-                    className="h-full w-350 rounded-r-lg"
+                    className="h-full w-300 rounded-r-lg"
                     alt="perrito limpiando el vidrio con la lengua"
                 />
             </div>
@@ -32,7 +32,7 @@ const Register = () => {
 
                         <form className="space-y-4">
                             <div>
-                                <label htmlFor="email" className="block mb-2 text-sm font-medium text-white">Email</label>
+                                <label htmlFor="email" className="block mb-2 text-sm font-medium text-white">Correo electrónico</label>
                                 <input
                                     type="email"
                                     name="email"
@@ -68,7 +68,7 @@ const Register = () => {
 
                             <div className='flex justify-between gap-5'>
                                 <div>
-                                    <label htmlFor="nombre" className="block mb-2 text-sm font-medium text-white">Nombre</label>
+                                    <label htmlFor="nombre" className="block mb-2 text-sm font-medium text-white">Nombres</label>
                                     <input
                                         type="text"
                                         name="nombre"
@@ -78,7 +78,7 @@ const Register = () => {
                                     />
                                 </div>
                                 <div>
-                                    <label htmlFor="apellido" className="block mb-2 text-sm font-medium text-white">Apellido</label>
+                                    <label htmlFor="apellido" className="block mb-2 text-sm font-medium text-white">Apellidos</label>
                                     <input
                                         type="text"
                                         name="apellido"
