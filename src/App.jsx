@@ -1,5 +1,5 @@
 
-import Register from "./assets/pages/Register.jsx";
+import Login from "./assets/pages/Login.jsx";
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
 
-      <Register />
+      <Login />
     </>
   )
 }
