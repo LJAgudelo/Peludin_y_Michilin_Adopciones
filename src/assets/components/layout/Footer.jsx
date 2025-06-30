@@ -8,7 +8,7 @@ const Footer = () => {
         { label: "Marcas recomendadas", href: "#marcas" },
     ];
     return (
-        <footer className="relative bg-gradient-to-b from-blue-300 to-blue-700 text-white pt-12 pb-6">
+        <footer className="relative bg-gradient-to-b  dark:bg-gray-900 text-white pt-12 pb-6">
 
             {/* Onda superior */}
             <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0]">
@@ -19,8 +19,8 @@ const Footer = () => {
                     viewBox="10 0 1000 150"
                 >
                     <path
-                        d="M0,0V46.29c47.86,22,103.84,29,158,17.39C279.68,34,385.75-17.18,502.26,1.68c82.75,13.48,164.68,45.15,247.86,47.25,86.57,2.2,172.39-23.64,258-38.58V0Z"
-                        className="fill-blue-500"
+                        d="M0,0V46.29c47.86,22,103.84,29,158,17.39C279.68,34,385.75-10.18,502.26,1.68c82.75,13.48,164.68,45.15,247.86,47.25,86.57,2.2,172.39-23.64,265-38.58V0Z"
+                        className="fill-[var(--createBlueRed)] "
                     ></path>
                 </svg>
             </div>
@@ -39,7 +39,7 @@ const Footer = () => {
                 ))}
             </div>
 
-            <hr className="border-gray-200 mx-8 mb-4" />
+            <hr className="mx-8 mb-4" />
 
             {/* Iconos redes sociales */}
             <div className="flex justify-center gap-4 mb-4">

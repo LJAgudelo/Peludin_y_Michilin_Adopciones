@@ -1,5 +1,5 @@
 
-import Footer from "./assets/components/layout/Footer.jsx";
+import Register from "./assets/pages/Register.jsx";
 
 
 function App() {
@@ -7,7 +7,8 @@ function App() {
 
   return (
     <>
-      <Footer />
+
+      <Register />
     </>
   )
 }
