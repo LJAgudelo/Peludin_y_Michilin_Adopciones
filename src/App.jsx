@@ -1,6 +1,5 @@
 
-import Header from "./assets/components/layout/Header.jsx";
-import Register from "./assets/pages/Register";
+import Footer from "./assets/components/layout/Footer.jsx";
 
 
 function App() {
@@ -8,7 +7,7 @@ function App() {
 
   return (
     <>
-      <Header />
+      <Footer />
     </>
   )
 }
