@@ -1,5 +1,7 @@
 
-import Login from "./assets/pages/Login.jsx";
+
+
+import NotFound from "./assets/pages/NotFound.jsx"
 
 
 function App() {
@@ -7,8 +9,7 @@ function App() {
 
   return (
     <>
-
-      <Login />
+      <NotFound />
     </>
   )
 }

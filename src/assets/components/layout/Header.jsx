@@ -1,5 +1,6 @@
 import { useState } from "react";
 import logo from "../../images/logo.png";
+import ButtonHome from "../ui/ButtonHome";
 import { RiMenuFill } from "react-icons/ri";
 
 const Header = () => {
@@ -7,13 +8,13 @@ const Header = () => {
 
     return (
         <nav className="bg-white border-gray-200 dark:bg-gray-900">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto m-2">
 
                 {/* Logo */}
                 <a href="#" className="flex items-center space-x-3">
-                    <img src={logo} className="h-15 rounded-full" alt="Logo" />
+                    <img src={logo} className="h-20 rounded-full" alt="Logo" />
                 </a>
-
+                <ButtonHome />
                 {/* Botón Hamburguesa */}
                 <button
                     onClick={() => setIsOpen(!isOpen)}
@@ -29,11 +30,12 @@ const Header = () => {
 
                 </button>
 
+
+
                 {/* Menú de navegación */}
                 <div className={`${isOpen ? "block" : "hidden"} w-full md:block md:w-auto`} id="navbar-multi-level">
                     <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                         {[
-                            "Inicio",
                             "Peludines",
                             "Michilines",
                             "Apadrinar",

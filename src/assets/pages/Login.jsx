@@ -8,11 +8,11 @@ import Footer from '../components/layout/Footer.jsx';
 const Login = () => {
     return (
         <>
-            <div className="flex flex-col min-h-[100dvh]">
+            <div className="flex flex-col ">
                 <Header />
 
                 <section className="flex flex-col justify-center items-center min-h-screen bg-[var(--createBlueRed)]">
-                    {/* Imagen más pequeña, sin empujar el contenedor */}
+                    {/* Imagen  */}
                     <div className="w-60 h-25 md:w-32 md:h-32 lg:w-100 lg:h-25 mb-2">
                         <img
                             src={asomando}
@@ -25,14 +25,11 @@ const Login = () => {
                         />
                     </div>
                     <div className="flex flex-col items-center w-11/12 sm:max-w-md m-2 space-y-4">
-
-
-
                         {/* Formulario */}
                         <div className="bg-[var(--createdDarkBlue)] w-full rounded-lg shadow p-6 space-y-4">
                             <h1 className="text-xl font-bold md:text-2xl text-white text-center">Inicia sesión en tu cuenta</h1>
 
-                            <form className="space-y-4">
+                            <form className="space-y-2">
                                 <div>
                                     <label htmlFor="email" className="block mb-2 text-sm font-medium text-white">Email</label>
                                     <input

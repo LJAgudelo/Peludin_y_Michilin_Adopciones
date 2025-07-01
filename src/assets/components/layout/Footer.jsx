@@ -8,7 +8,7 @@ const Footer = () => {
         { label: "Marcas recomendadas", href: "#marcas" },
     ];
     return (
-        <footer className="relative bg-gradient-to-b  dark:bg-gray-900 text-white pt-12 pb-6">
+        <footer className="relative bg-gradient-to-b  dark:bg-gray-900 text-white p-15">
 
             {/* Onda superior */}
             <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0]">
