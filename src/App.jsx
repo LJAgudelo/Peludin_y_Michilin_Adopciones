@@ -1,7 +1,8 @@
+import PetCart from "./assets/components/card/PetCart"
 
 
 
-import NotFound from "./assets/pages/NotFound.jsx"
+
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
 
   return (
     <>
-      <NotFound />
+      <PetCart />
     </>
   )
 }

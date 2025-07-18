@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Ribeye&display=swap');
 
 @layer base {
     :root {
@@ -8,6 +9,9 @@
         --createotherRed: #57C3E0;
         --createBlueRed: #67C0DD;
         --creatdark: #06143F;
+        --createdReed: #13BA18;
+        --createOtherdReed: #8DD98B;
+        --createbsky: #f5f5f5;
     }
 }
 
