@@ -8,11 +8,11 @@ const Header = () => {
 
     return (
         <nav className="bg-white border-gray-200 dark:bg-gray-900">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto m-2">
+            <div className="w-full flex flex-wrap items-center justify-between mx-auto ">
 
                 {/* Logo */}
                 <a href="#" className="flex items-center space-x-3">
-                    <img src={logo} className="h-20 rounded-full" alt="Logo" />
+                    <img src={logo} className="h-25 rounded-full m-5" alt="Logo" />
                 </a>
                 <ButtonHome />
                 {/* Botón Hamburguesa */}
@@ -27,14 +27,10 @@ const Header = () => {
                     ) : (
                         <RiMenuFill />
                     )}
-
                 </button>
-
-
-
                 {/* Menú de navegación */}
                 <div className={`${isOpen ? "block" : "hidden"} w-full md:block md:w-auto`} id="navbar-multi-level">
-                    <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <ul className="flex flex-col font-semibold p-2 md:p-0 m-5 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-10 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                         {[
                             "Peludines",
                             "Michilines",
@@ -46,7 +42,7 @@ const Header = () => {
                             "Registrarse"
                         ].map((item) => (
                             <li key={item}>
-                                <a hrsef="#" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                                <a hrsef="#" className="block py-1 px-2 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent hover:underline transition-colors">
                                     {item}
                                 </a>
                             </li>

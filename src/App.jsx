@@ -1,16 +1,14 @@
-import PetCart from "./assets/components/card/PetCart"
 
-
-
-
-
+import Post from "./assets/pages/Post.jsx"
+import PetCard from "../src/assets/components/card/PetCart.jsx"
+import MessagePost from "./assets/pages/MessagePost.jsx"
 
 function App() {
 
 
   return (
     <>
-      <PetCart />
+      <MessagePost />
     </>
   )
 }

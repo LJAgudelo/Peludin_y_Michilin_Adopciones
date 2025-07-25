@@ -1,10 +1,8 @@
-import lengua from '../../assets/images/lengua.jpg';
-import logo from '../images/logo.png';
-import Registrarse from '../components/ui/Registrarse.jsx';
-import Header from '../components/layout/Header.jsx';
-import Footer from '../components/layout/Footer.jsx';
+import Header from "../components/layout/Header.jsx"
+import Footer from "../components/layout/Footer.jsx"
+import gatovol from "../images/gatoMano.jpg"
 
-const Register = () => {
+const Post = () => {
     return (
         <>
             <Header />
@@ -12,16 +10,14 @@ const Register = () => {
                 {/* Columna imagen (visible solo en pantallas grandes) */}
                 <div className="hidden lg:flex w-1/2 relative">
                     <img
-                        src={lengua}
-                        className="w-full h-full object-cover"
-                        alt="perrito limpiando el vidrio con la lengua"
+                        src={gatovol}
+                        className="w-100 h-150 mx-60  object-cover"
+                        alt="Gato mirando"
                     />
-                    <div className="absolute top-0 right-0 h-full w-20 bg-gradient-to-l from-[var(--createBlueRed)] to-transparent" />
-                    <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-[var(--createBlueRed)] to-transparent" />
-                </div>
 
+                </div>
                 {/* Columna formulario */}
-                <section className=" justify-center items-center w-full lg:w-1/2 bg-[var(--createBlueRed)] p-10 ">
+                <section className=" justify-center items-center w-full lg:w-1/2 bg[--()] p-10 ">
 
 
                     {/* Formulario */}
@@ -66,15 +62,21 @@ const Register = () => {
                                 </div>
                             </div>
 
-                            <Registrarse />
+
                         </form>
+
+
                     </div>
+
+
                 </section>
+
+
             </div>
 
             <Footer />
         </>
-    );
-};
+    )
+}
 
-export default Register;
+export default Post
