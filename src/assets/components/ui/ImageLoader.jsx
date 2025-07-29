@@ -34,7 +34,7 @@ const ImageLoader = () => {
                             </div>
 
                             <div className="mt-2 flex text-sm text-gray-600 justify-center ">
-                                <label htmlFor="image" className="cursor-pointer rounded-md bg-[#fff8e7] font-semibold bg-blue-200">
+                                <label htmlFor="image" className="cursor-pointer rounded-md  font-semibold bg-blue-200">
                                     <span>Cargar imagen</span>
                                     <input
                                         id="image"

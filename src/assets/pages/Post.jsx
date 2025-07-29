@@ -131,10 +131,6 @@ const Post = () => {
                                     Esterilizado
                                 </label>
                             </div>
-
-
-
-
                             {/* Descripción */}
                             <div>
                                 <label htmlFor="descripcion" className="block mb-2 text-sm font-medium text-white">Descripción</label>
