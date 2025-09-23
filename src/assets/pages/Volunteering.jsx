@@ -30,7 +30,7 @@ const Volunteering = () => {
                     <section className="flex flex-col w-full h-full p-5 gap-2">
 
                         <div className="bg-[var(--createdDarkBlue)] w-full max-w-md rounded-lg shadow p-6 space-y-2">
-                            <h1 className="text-xl font-bold md:text-2xl text-white text-center">Participar</h1>
+                            <h1 className="text-xl font-bold md:text-2xl text-white text-center">Participa</h1>
 
                             <form className="space-y-4">
                                 <div>
