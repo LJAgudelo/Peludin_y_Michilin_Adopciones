@@ -19,7 +19,7 @@ function App() {
         <Route path="login" element={<Login />} />
         <Route path="messagepost" element={<MessagePost />} />
         <Route path="mypets" element={<Mypets />} />
-        <Route path="notfound" element={<Notfound />} />
+
         <Route path="post" element={<Post />} />
         <Route path="profile" element={<Profile />} />
         <Route path="register" element={<Register />} />
