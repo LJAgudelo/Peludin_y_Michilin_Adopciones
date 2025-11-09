@@ -1,7 +1,7 @@
 import Header from '../components/layout/Header.jsx'
 import Footer from '../components/layout/Footer.jsx'
 import mypet from '../images/mypet.png'
-import ButtonGodfather from '../components/ui/Buttongodfather.jsx'
+import Buttongodfather from '../components/ui/Buttongodfather.jsx'
 import ButtonAdopt from '../components/ui/ButtonAdopt.jsx'
 import AnimationLottie from '../components/ui/AnimationLottie.jsx'
 
@@ -23,7 +23,7 @@ const Mypets = () => {
                     </div>
                     <div className='absolute bottom-3 flex gap-30'>
                         <ButtonAdopt />
-                        <ButtonGodfather />
+                        <Buttongodfather />
                     </div>
                 </div>
 
