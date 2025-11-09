@@ -9,27 +9,22 @@ const Mypets = () => {
     return (
         <>
             <Header />
-            <div className="flex  items-center justify-center bg-[var(--createotherRed)] gap-3 ">
-
+            <div className="flex items-center justify-center bg-[var(--createotherRed)] gap-3">
                 <div className="relative flex flex-col items-center justify-center">
                     <img
                         src={mypet}
-                        className="w-280 h-250 object-cover "
+                        className="w-280 h-250 object-cover"
                         alt="Mensaje de reflexión"
                     />
-
-                    <div className='absolute top-200 left-110 w-20 h-20' >
+                    <div className="absolute top-200 left-110 w-20 h-20">
                         <AnimationLottie />
                     </div>
-                    <div className='absolute bottom-3 flex gap-30'>
+                    <div className="absolute bottom-3 flex gap-30">
                         <ButtonAdopt />
                         <Buttongodfather />
                     </div>
                 </div>
-
-
-            </div >
-
+            </div>
             <Footer />
         </>
     )
